@@ -10,7 +10,7 @@
 - 在下列方法中调用
 
 ```objc
-	//- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+	- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 
    [self createGuideView];
     
